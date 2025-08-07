@@ -1,0 +1,6 @@
+class gcd_euclidean_recursive {
+    public static int gcd(int n, int m) {
+        if(m==0)return n;
+        else return gcd(m,n%m);
+    }
+}
